@@ -6,8 +6,8 @@
 
 One haiku about debugging, in the 5-7-5 shape, for make.fun's "Seventeen Syllables of Debugging" bounty.
 
-> Three a.m. cursor
-> blinks where the line swore it worked
+> One log line, one lie
+> says the crash happened elsewhere
 > it lied. So did I.
 
 `main.ts` reads `haiku.txt`, checks it is three lines of 5, 7 and 5 syllables and no more than 200 characters, then writes it to `$MAKEFUN_OUTPUT_DIR/entry.txt` (or `/output/entry.txt`).
